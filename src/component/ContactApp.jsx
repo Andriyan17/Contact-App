@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import ContactList from './ContactList';
-import { getData } from './data';
+import { getData } from '../data';
 
 function ContactApp() {
   const contacts = getData();
